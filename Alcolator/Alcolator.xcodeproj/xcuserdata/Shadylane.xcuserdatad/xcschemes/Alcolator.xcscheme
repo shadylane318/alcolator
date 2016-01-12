@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8836A73E1C3DC0C10067DE00"
+               BlueprintIdentifier = "88B408A71C448BBA000F41B3"
                BuildableName = "Alcolator.app"
                BlueprintName = "Alcolator"
                ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8836A73E1C3DC0C10067DE00"
+            BlueprintIdentifier = "88B408A71C448BBA000F41B3"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8836A73E1C3DC0C10067DE00"
+            BlueprintIdentifier = "88B408A71C448BBA000F41B3"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8836A73E1C3DC0C10067DE00"
+            BlueprintIdentifier = "88B408A71C448BBA000F41B3"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
