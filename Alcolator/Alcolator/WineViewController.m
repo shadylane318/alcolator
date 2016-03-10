@@ -14,4 +14,16 @@
 
 @implementation WineViewController
 
+- (float)ouncesInOneGlass {
+    return 5;
+}
+
+- (float)alcoholPercentage {
+    return 0.13;
+}
+
+- (NSString *)alcoholName {
+    return @"wine";
+}
+
 @end
