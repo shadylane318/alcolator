@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88B408A71C448BBA000F41B3"
+               BlueprintIdentifier = "883C45671C90F19E000EBBA9"
                BuildableName = "Alcolator.app"
                BlueprintName = "Alcolator"
                ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -28,11 +28,31 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "883C45801C90F19F000EBBA9"
+               BuildableName = "AlcolatorTests.xctest"
+               BlueprintName = "AlcolatorTests"
+               ReferencedContainer = "container:Alcolator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "883C458B1C90F19F000EBBA9"
+               BuildableName = "AlcolatorUITests.xctest"
+               BlueprintName = "AlcolatorUITests"
+               ReferencedContainer = "container:Alcolator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88B408A71C448BBA000F41B3"
+            BlueprintIdentifier = "883C45671C90F19E000EBBA9"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -55,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88B408A71C448BBA000F41B3"
+            BlueprintIdentifier = "883C45671C90F19E000EBBA9"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -74,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88B408A71C448BBA000F41B3"
+            BlueprintIdentifier = "883C45671C90F19E000EBBA9"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
