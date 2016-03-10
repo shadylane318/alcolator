@@ -16,6 +16,8 @@
 
 - (void)buttonPressed:(UIButton *)sender;
 
+- (NSString *)unitsOfAlcohol;
+
 - (float)ouncesInOneGlass;
 
 - (float)alcoholPercentage;

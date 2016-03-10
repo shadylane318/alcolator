@@ -36,7 +36,11 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
-    
+    self.navigationItem.title = [NSString stringWithFormat:@"%@: %f", self.unitsOfAlcohol, sender.value];
+}
+
+- (NSString *)unitsOfAlcohol {
+    return @""; // Subclasses should override this method
 }
 
 - (float)ouncesInOneGlass {

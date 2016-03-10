@@ -26,4 +26,8 @@
     return @"wine";
 }
 
+- (NSString *)unitsOfAlcohol {
+    return @"Wine glasses";
+}
+
 @end
