@@ -17,6 +17,7 @@
 		883C45911C90F19F000EBBA9 /* AlcolatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C45901C90F19F000EBBA9 /* AlcolatorUITests.m */; };
 		883C45A01C9108B8000EBBA9 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C459F1C9108B8000EBBA9 /* WhiskeyViewController.m */; };
 		883C45A31C9108CF000EBBA9 /* WineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C45A21C9108CF000EBBA9 /* WineViewController.m */; };
+		883C45A61C910E72000EBBA9 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883C45A51C910E72000EBBA9 /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		883C459F1C9108B8000EBBA9 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 		883C45A11C9108CF000EBBA9 /* WineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WineViewController.h; sourceTree = "<group>"; };
 		883C45A21C9108CF000EBBA9 /* WineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WineViewController.m; sourceTree = "<group>"; };
+		883C45A41C910E72000EBBA9 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		883C45A51C910E72000EBBA9 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				883C459F1C9108B8000EBBA9 /* WhiskeyViewController.m */,
 				883C45A11C9108CF000EBBA9 /* WineViewController.h */,
 				883C45A21C9108CF000EBBA9 /* WineViewController.m */,
+				883C45A41C910E72000EBBA9 /* MainMenuViewController.h */,
+				883C45A51C910E72000EBBA9 /* MainMenuViewController.m */,
 			);
 			path = Alcolator;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				883C45A31C9108CF000EBBA9 /* WineViewController.m in Sources */,
 				883C45A01C9108B8000EBBA9 /* WhiskeyViewController.m in Sources */,
 				883C45701C90F19E000EBBA9 /* AppDelegate.m in Sources */,
+				883C45A61C910E72000EBBA9 /* MainMenuViewController.m in Sources */,
 				883C456D1C90F19E000EBBA9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
