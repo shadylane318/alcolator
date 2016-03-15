@@ -37,6 +37,8 @@
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
     self.navigationItem.title = [NSString stringWithFormat:@"%@: %f", self.unitsOfAlcohol, sender.value];
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) sender.value]];
+
 }
 
 - (NSString *)unitsOfAlcohol {
@@ -63,6 +65,7 @@
     float alcoholPercentageOfBeer = [self.beerPercentTextField.text floatValue] / 100;
     float ouncesOfAlcoholPerBeer = ouncesInOneBeerGlass * alcoholPercentageOfBeer;
     float ouncesOfAlcoholTotal = ouncesOfAlcoholPerBeer * numberOfBeers;
+    
     // now, calculate the equivalent amount of wine...
 
     float ouncesOfAlcoholPerWineGlass = [self ouncesInOneGlass] * [self alcoholPercentage];
