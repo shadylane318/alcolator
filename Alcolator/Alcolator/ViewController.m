@@ -36,9 +36,6 @@
 - (IBAction)sliderValueDidChange:(UISlider *)sender {
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
-    self.navigationItem.title = [NSString stringWithFormat:@"%@: %f", self.unitsOfAlcohol, sender.value];
-    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) sender.value]];
-
 }
 
 - (NSString *)unitsOfAlcohol {
@@ -86,6 +83,10 @@
     // generate the result text, and display it on the label
     NSString *resultText = [NSString stringWithFormat:NSLocalizedString(@"%d %@ (with %.2f%% alcohol) contains as much alcohol as %.1f %@ of %@.", nil), numberOfBeers, beerText,  [self.beerPercentTextField.text floatValue], numberOfWineGlassesForEquivalentAlcoholAmount, wineText, [self alcoholName]];
     self.resultLabel.text = resultText;
+    
+    // Set the title and the badge
+    self.navigationItem.title = [NSString stringWithFormat:@"%.0f", numberOfWineGlassesForEquivalentAlcoholAmount];
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%.0f", numberOfWineGlassesForEquivalentAlcoholAmount]];
 }
     
 - (IBAction)tapGestureDidFire:(UITapGestureRecognizer *)sender {
